@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Contact Information</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <body style="background-color: rgb(124, 187, 216);">
+    <body style="background-color: rgb(225, 240, 247);">
  </head>
 
  <body>
@@ -14,25 +14,31 @@
     </header>
 
     <main>
-        <section>
-            <h3>Contact Form</h3>
-            <ul>
-                <li>Contact Link:</li>
-                <li>About:</li>
-                <li>Home:</li>
-            </ul>
-        </section>
 
         <section>
+            <p>Submit your Information to get in contact with a study group!</p>
+        </section>
+
+        <section class="top">
+                <a href="placeholder">Contact Link</a>
+                <a href="#">Portfolio</a>
+                <a href="https://github.com">Github</a>
+        </section>
+
+        <section> <!-- Last Section, contact form-->
             <div class="container">
                 <form action="action_page.php">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
                     <label for="lname">Last Name</label>
-                    <input type="text" id="fname" name="lastname" placeholder="Your last name..">
+                    <input type="text" id="fname" name="lastname" placeholder="Last name..">
 
-                    <input type="submit" value="Submit">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Contact Info.."
+                    style="height:58px"> </textarea>
+
+                    <input type="submit" value="Send">
                 </form>
             </div>
         </section> <!-- Last Section, contact form --> 

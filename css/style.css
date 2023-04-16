@@ -1,6 +1,30 @@
+.top {
+    position: absolute;
+    top: 0px;
+    background-color:blanchedalmond;
+    height: 35px;
+    width: 100%;   
+    border-bottom: solid rgb(23, 75, 218);
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 label {
     font-size: 20px;
+    
 }
 input {
+    border-radius: 9px;
+    width: 95px;
+    height: 20px;
+    padding: 3px;
     font-size: 15px;
+}
+input[type=submit]:hover {
+    background-color: rgb(11, 185, 113);
+}
+h1, p{
+    font-size: 50px;
+    text-align: center;
 }
